@@ -202,7 +202,33 @@ a {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .picture-half {
+        width: 100%;
+    }
+    .profile-half {
+        width: 100%;
+    }
+    .main-footer {
+        max-width: 479px;
+        padding-left: 0px;
+    }
+}
+
 @media screen and (max-width: 479px) {
+    .contact-info {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15.8%;
+        padding-top: 25%;
+    }
+    .icon {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .contact-info {
         font-size: 16px;
         margin-left: 5%;
