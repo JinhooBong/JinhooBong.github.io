@@ -204,16 +204,19 @@ a {
 
 @media screen and (max-width: 1150px) {
     .nav-list {
-        font-size: 35px;
+        font-size: 30px;
     }
     .picture-half {
         width: 100%;
     }
     .profile-half {
         width: 100%;
-        font-size: 35px;
+        font-size: 30px;
     }
     #intro-sentence {
+        font-size: 35px;
+    }
+    .intro-box {
         font-size: 40px;
     }
     .main-footer {
@@ -246,9 +249,9 @@ a {
         padding-top: 25%;
     }
     .icon {
-        font-size: 20px;
+        font-size: 40px;
     }
     .contact-foot {
-        margin-top: 50%;
+        margin-top: 80%;
     }
 }
