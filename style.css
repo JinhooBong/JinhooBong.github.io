@@ -204,19 +204,17 @@ a {
 
 @media screen and (max-width: 1150px) {
     .nav-list {
-        font-size: 24px;
+        font-size: 20px;
     }
     .picture-half {
-        width: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 100%;
     }
     .profile-half {
         width: 100%;
         font-size: 50px;
     }
     #intro-sentence {
-        font-size: 50px;
+        font-size: 40px;
     }
     .main-footer {
         max-width: 1150px;
@@ -240,13 +238,13 @@ a {
 
 @media screen and (max-width: 1150px) {
     .contact-info {
-        font-size: 50px;
+        font-size: 35px;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 15.8%;
         padding-top: 25%;
     }
     .icon {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
