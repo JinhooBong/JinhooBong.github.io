@@ -204,14 +204,14 @@ a {
 
 @media screen and (max-width: 1150px) {
     .nav-list {
-        font-size: 20px;
+        font-size: 35px;
     }
     .picture-half {
         width: 100%;
     }
     .profile-half {
         width: 100%;
-        font-size: 50px;
+        font-size: 35px;
     }
     #intro-sentence {
         font-size: 40px;
@@ -220,6 +220,7 @@ a {
         max-width: 1150px;
         padding-left: 0px;
         margin-top: 17%;
+        font-size: 25px;
     }
 }
 
@@ -246,5 +247,8 @@ a {
     }
     .icon {
         font-size: 20px;
+    }
+    .contact-foot {
+        margin-top: 50%;
     }
 }
