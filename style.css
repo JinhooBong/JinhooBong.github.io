@@ -203,16 +203,25 @@ a {
 }
 
 @media screen and (max-width: 1150px) {
+    .nav-list {
+        font-size: 24px;
+    }
     .picture-half {
-        width: 100%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .profile-half {
         width: 100%;
+        font-size: 50px;
+    }
+    #intro-sentence {
+        font-size: 50px;
     }
     .main-footer {
         max-width: 1150px;
         padding-left: 0px;
-        margin-top: 15%;
+        margin-top: 17%;
     }
 }
 
@@ -231,13 +240,13 @@ a {
 
 @media screen and (max-width: 1150px) {
     .contact-info {
-        font-size: 16px;
+        font-size: 50px;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 15.8%;
         padding-top: 25%;
     }
     .icon {
-        font-size: 12px;
+        font-size: 24px;
     }
 }
