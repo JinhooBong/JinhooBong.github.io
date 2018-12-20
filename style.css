@@ -16,12 +16,17 @@ a {
     color: black;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 /* Main Styles -------------------- */
 
 .main-header {
     height: 600px;
     width: 98%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("image5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/background.jpg");
     /* image by Samuel Scrimshaw on Unsplashed */
     opacity: 0.8;
     background-color: #cccccc; /* Used if image unavailable */
@@ -114,12 +119,12 @@ a {
 .picture-half {
     width: 50%;
     text-align: center;
-    float: left;
+    height: 100%;
 }
 
     #pic {
-        width: 70%;
-        height: 50%;
+        width: 80%;
+        height: 80%;
     }
 
 .profile-half {
@@ -127,12 +132,33 @@ a {
     font-weight: 400;
     font-size: 18px;
     width: 50%;
-    float: right;
+    height: 100vh;
 }
 
     #intro-sentence {
         font-size: 20px;
         font-weight: 900;
+    }
+
+#projects-div {
+    width: 100%;
+    padding-left: 5%;
+    clear: both;
+    height: 100vh;
+}
+
+    #title {
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .subheader {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .projects {
+        width: 50%;
     }
 
 .main-footer {
@@ -184,7 +210,27 @@ a {
     float: left;
 }
 
+.left {
+    float: left;
+}
 
+.right {
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+.screenshot {
+    width: 48%;
+}
+
+.description {
+    width: 48%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
 /* Media Queries -------------------- */
 
 
