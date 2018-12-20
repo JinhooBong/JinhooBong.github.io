@@ -303,4 +303,8 @@ img {
     .contact-foot {
         margin-top: 90%;
     }
+
+    .projects {
+        width: 100%;
+    }
 }
