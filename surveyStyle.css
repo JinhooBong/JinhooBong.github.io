@@ -1,7 +1,7 @@
 /* Base Styles -------------------- */
 
 body {
-    background-image: url("chipotle_inside.jpg");
+    background-image: url("img/chipotle_inside.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
