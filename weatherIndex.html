@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WeatherWear</title>
+        <link rel="stylesheet" href="weatherStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <div class="main-title">
+                <div id="faded">
+                    <h1 id="title">WeatherWear</h1>
+                    <p id="description">A weather application that pinpoints your location and suggests what to wear according to the temperature in your area.</p>
+                    <footer id="main-footer">
+                        <div>Icons made by 
+                            <a target="_blank" href="https://www.freepik.com/" title="Freepik">Freepik</a> from 
+                            <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> 
+                            is licensed by 
+                            <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <div id="right-half">
+                <div id="top-portion">
+                    <button id="locate-button">Locate Me</button>
+                    <h3><div id="temperature"></div></h3>
+                    <h4><div id="location"></div></h4>
+                </div>
+                <div id="bottom-portion">
+                    <div class="weather">
+                        <p id="sentence"></p>                        
+                        <ul id="clothing-list"></ul>
+                        <p id="weatherSentence"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="http://maps.google.com/maps/api/js?key=AIzaSyAZ7nToJzfkZvqtJDExZPkOU6_jfvJFW6g"></script>
+        <script src="weatherJS.js"></script>
+    </body>
+
+</html>
