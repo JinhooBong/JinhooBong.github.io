@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="spiderVerseStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    </head>
+    <body>
+        <div id="titleDiv">
+            <p id="title"></p>
+            <p id="subtitle">Into the Spider-Verse</p>
+        </div>
+        <section>
+            <div class="info" id="spiderHam">
+                <div class="description" id="spiderHam-description">
+                    <svg class="svgs" width="200" height="200">
+                        <defs>
+                            <filter id="f1" x="0" y="0" width="200%" height="200%">
+                                <feOffset result="offOut" in="SourceAlpha" dx="100" dy="100"/>
+                                <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10"/>
+                                <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+                            </filter>
+                        </defs>
+                        <polygon points="0, 10
+                                        200,0  
+                                        200, 150
+                                        80, 160
+                                        90, 150
+                                        15, 150,
+                                        0, 10"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="20" y="70">
+                            Name: Spider-Ham
+                            <tspan x="20" y="90">Identity: Peter Porker</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/spiderham-iso.jpg" height="150%" id="Spider-Ham">
+                </div>
+            </div>
+            <div class="info" id="peniParker">
+                <div class="description" id="peniParker-description">
+                    <svg class="svgs" width="200" height="200">
+                        <polygon points="0,0
+                                        200, 15  
+                                        180, 175
+                                        175, 160
+                                        25, 160
+                                        0, 0"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="25" y="70">
+                            Name: SP//dr
+                            <tspan x="25" y="90">Identity: Peni Parker</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/spdr-iso.jpg" height="150%" id="Peni-Parker">
+                </div>
+            </div>
+            <div class="info" id="spiderGwen">
+                <div class="description" id="spiderGwen-description">
+                    <svg class="svgs middle" width="200" height="200">
+                        <polygon points="0,0
+                                        190, 5  
+                                        185, 55
+                                        195, 50
+                                        200, 150
+                                        25, 130
+                                        15, 150
+                                        0, 0"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="20" y="60">
+                            Name: Spider-Woman
+                            <tspan x="20" y="80">Identity: Gwen Stacy</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/gwen-iso.jpg" height="175%" id="Spider-Gwen">
+                </div>
+            </div>
+            <div class="info" id="milesMorales">
+                <div class="description" id="milesMorales-description">
+                    <svg class="svgs middle" width="200" height="200">
+                        <polygon points="0,0
+                                        200, 10  
+                                        190, 110
+                                        70, 130
+                                        80, 140
+                                        60, 130
+                                        85, 120
+                                        15, 125
+                                        0, 0"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="15" y="40">
+                            Name: Spider-Man
+                            <tspan x="15" y="60">Identity: Miles Morales</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/miles-iso.jpg" height="150%" id="Miles-Morales">
+                </div>
+            </div>
+            <div class="info" id="spiderMan">
+                <div class="description" id="spiderMan-description">
+                    <svg class="svgs" width="200" height="200">
+                        <polygon points="0,15
+                                        190, 5  
+                                        185, 60
+                                        195, 30
+                                        185, 160
+                                        35, 170
+                                        50, 165
+                                        5, 160
+                                        0, 15"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="15" y="80">
+                            Name: Spider-Man
+                            <tspan x="15" y="100">Identity: Peter B.</tspan>
+                            <tspan x="100" y="120">Parker</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/spiderman-iso.jpg" height="200%" id="SpiderMan">
+                </div>
+            </div>
+            <div class="info" id="Noir">
+                <div class="description" id="Noir-description">
+                    <svg class="svgs" width="200" height="200">
+                        <polygon points="5,0
+                                        200, 25  
+                                        195, 200
+                                        185, 130
+                                        45, 145
+                                        65, 135
+                                        0, 150
+                                        5,0"
+                            style="fill:white;stroke:black; stroke-width:1"
+                        />
+                        <text x="15" y="70">
+                            Name: Spider-Man Noir
+                            <tspan x="15" y="90">Identity: Peter Parker</tspan>
+                        </text>
+                    </svg>
+                </div>
+                <div class="picture-div">
+                    <img src="img/noir-iso.jpg" height="200%" id="SpiderMan-Noir">
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="spiderScript.js"></script>
+</html>
