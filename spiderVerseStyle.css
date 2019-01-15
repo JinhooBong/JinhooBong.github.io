@@ -47,7 +47,7 @@ p {
     padding-top: 3%;
     padding-bottom: 8%;
     margin: auto;
-    background-image: url("img/title.jpg");
+    background-image: url("img/spiderImg/title.jpg");
     background-size: 60%;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -124,7 +124,7 @@ p {
 }
 
 #peniParker {
-    background-image: url("img/Sp-dr.jpg");
+    background-image: url("img/spiderImg/Sp-dr.jpg");
     background-size: 1000%;
     background-position-x: -10px;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@ p {
 }
 
 #spiderGwen {
-    background-image: url("img/Spider-gwen.jpg");
+    background-image: url("img/spiderImg/Spider-gwen.jpg");
     background-size: 500%;
     background-repeat: no-repeat;
 }
@@ -147,7 +147,7 @@ p {
 }
 
 #milesMorales {
-    background-image: url("img/Miles-Morales.jpg");
+    background-image: url("img/spiderImg/Miles-Morales.jpg");
     background-size: 800%;
     background-repeat: no-repeat;
 }
@@ -158,7 +158,7 @@ p {
 }
 
 #spiderMan {
-    background-image: url("img/Spider-Man.jpg");
+    background-image: url("img/spiderImg/Spider-Man.jpg");
     background-size: 650%;
     background-position-x: -5px;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ p {
 }
 
 #Noir {
-    background-image: url("img/Spider-Man\ Noir.jpg");
+    background-image: url("img/spiderImg/Spider-Man\ Noir.jpg");
     background-size: 650%;
     background-position-y: 100%;
     background-position-x: 10%;
