@@ -1,0 +1,310 @@
+/* Base Styles -------------------- */
+
+body {
+    margin: 0px;
+    width: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main Styles -------------------- */
+
+.main-header {
+    height: 600px;
+    width: 98%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/background.jpg");
+    /* image by Samuel Scrimshaw on Unsplashed */
+    opacity: 0.8;
+    background-color: #cccccc; /* Used if image unavailable */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#contact-header {
+    height: 75px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+    /* Nav bar ------------------------ */
+    .nav-bar {
+        width: auto;
+        height: 5%;
+    }
+
+    .nav-list li {
+        float: right;
+    }
+
+    .nav-list li a {
+        font-family: 'Yantramanav', sans-serif;
+        display: block;
+        text-align: center;
+        margin: 10px;
+        padding: 10px 12px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-list li a:hover {
+        opacity: 0.6;
+    }
+
+    .active {
+        opacity: 0.6;
+    }
+
+    #label {
+        font-family: 'Yantramanav', sans-serif;
+        float: left;
+        padding: 10px 12px;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin: 15px;
+    }
+
+    #label a {
+        color: white;
+    }
+
+    #contact {
+        border: 1px solid white;
+    }
+
+    #contact:hover {
+        background-color: white;
+        color: black;
+    }
+    /* --------------------------------- */
+
+.intro-box {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 956px;
+    position: relative;
+    margin: auto;
+    padding: 32px;
+    color: white;
+    text-align: left;
+    top: 30%;
+}
+
+.main-body {
+    width: 90%;
+    margin: 5%;
+    overflow: auto;
+}
+
+.picture-half {
+    width: 50%;
+    text-align: center;
+    height: 100%;
+}
+
+    #pic {
+        width: 80%;
+        height: 80%;
+    }
+
+.profile-half {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 50%;
+    height: 100vh;
+}
+
+    #intro-sentence {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+#projects-div {
+    width: 100%;
+    padding-left: 5%;
+    clear: both;
+    height: 100vh;
+}
+
+    #title {
+        font-family: 'Yantramanav', sans-serif;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .subheader {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .projects {
+        width: 50%;
+    }
+
+.main-footer {
+    height: 30%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding: 50px 0%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    float: clear;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.contact-info {
+    height: 300px;
+    width: 80%;
+    margin: 2% 10%;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    padding-top: 7%;
+}
+
+.contact-info div {
+    width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.contact-info p {
+    padding: 2%;
+}
+
+.icon {
+    width: 15%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    color: #686868;
+    font-size: 16px;
+    float: left;
+}
+
+.info {
+    width: 70%;
+    padding-left: 10%;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.half {
+    width: 50%;
+}
+
+.screenshot {
+    width: 48%;
+}
+
+.description {
+    width: 48%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+/* Media Queries -------------------- */
+
+
+/* Phone Screens -------------------- */
+@media screen and (max-width: 479px) {
+    .picture-half {
+        width: 100%;
+    }
+    .profile-half {
+        width: 100%;
+    }
+    .main-footer {
+        max-width: 479px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #label {
+        font-size: 30px;
+    }
+    .nav-list {
+        font-size: 30px;
+    }
+    .picture-half {
+        width: 100%;
+    }
+    .profile-half {
+        width: 100%;
+        font-size: 30px;
+    }
+    #intro-sentence {
+        font-size: 35px;
+    }
+    .intro-box {
+        font-size: 40px;
+    }
+    .main-footer {
+        max-width: 1150px;
+        padding-left: 0px;
+        margin-top: 17%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .contact-info {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15.8%;
+        padding-top: 25%;
+    }
+    .icon {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .contact-info {
+        font-size: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15.8%;
+        padding-top: 25%;
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .contact-foot {
+        margin-top: 90%;
+    }
+
+    .projects {
+        width: 100%;
+    }
+}

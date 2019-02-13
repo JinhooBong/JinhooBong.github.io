@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="surveyStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main">
+      <div id="titleDiv">
+          <h1 id="title">CHIPOTLE</h1>
+      </div>
+      <form id="survey-form">
+        <p id="description">Please leave us a review to help us serve you better</p>
+        <div class="row">
+          <div class="labels">
+            <label id="name-label">* Name: </label>
+          </div>
+          <div class="inputs">
+            <input type="text" id ="name" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="email-label">* Email: </label>
+          </div>
+          <div class="inputs">
+            <input type="email" id="email" placeholder="Enter your Email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="number-label">* Age: </label>
+          </div>
+          <div class="inputs">
+            <input type="number" id="number" placeholder="Enter your age" min="0" max="150" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="labels">
+            <label>How would you best describe yourself?</label>
+          </div>
+          <div class="inputs">
+            <select id="dropdown">
+              <option value="" disabled selected>Select an option</option>
+              <option value="Child">Child (5-12)</option>
+              <option value="Teenager">Teenager (13-19)</option>
+              <option value="Young adult">Young adult (20-30)</option>
+              <option value="Full Time Learner">Adult (40-65)</option>
+              <option value="Elder">Elder (65+)</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label>How often would you say you eat at Chipotle per week?</label>
+          </div>
+          <div class="inputs" id="radios">
+            <input type="radio" name="choice" value="Once">Once<br>
+            <input type="radio" name="choice" value="Twice">Twice<br>
+            <input type="radio" name="choice" value="Three">Three times<br>
+            <input type="radio" name="choice" value="More">More often<br>
+           </div>
+        </div>
+        <div class="row" id="long">
+          <div class="labels">
+            <div id="topMargin"></div>
+            <label>What do you usually get in your Chipotle meal? (Check all that apply): </label>
+          </div>
+          <div class="inputs" id="checkboxes">
+            <input type="checkbox" class="check" value="Steak">Steak<br>
+            <input type="checkbox" class="check"  value="Chicken">Chicken<br>
+            <input type="checkbox" class="check"  value="Carnitas">Carnitas<br>
+            <input type="checkbox" class="check" value="Barbacoa">Barbacoa<br>
+            <input type="checkbox" class="check"  value="Chorizo">Chorizo<br>
+            <input type="checkbox" class="check"  value="Sofritas">Sofritas<br>
+            <input type="checkbox" class="check" value="Brown Rice">Cilantro-lime Brown Rice<br>
+            <input type="checkbox" class="check"  value="white rice">Cilantro-lime White Rice<br>
+            <input type="checkbox" class="check"  value="Black beans">Black Beans<br>
+            <input type="checkbox" class="check"  value="Pinto Beans">Pinto Beans<br>
+            <input type="checkbox" class="check"  value="Fajita Veggies">Fajita Veggies<br>
+            <input type="checkbox" class="check" value="queso">Queso<br>
+            <input type="checkbox" class="check" value="mild salsa">Fresh Tomato Salsa (Mild)<br>
+            <input type="checkbox" class="check" value="hot salsa">Tomatillo Red-Chili Salsa (Hot)<br>
+            <input type="checkbox" class="check" value="sour cream">Sour Cream<br>
+            <input type="checkbox" class="check" value="medium salsa">Tomatillo Green-Chili Salsa (Medium-Hot)<br>
+            <input type="checkbox" class="check" value="corn">Roasted Chili-Corn Salsa (Medium)<br>
+            <input type="checkbox" class="check" value="lettuce">Romaine Lettuce<br>
+            <input type="checkbox" class="check" value="guacamole">Guacamole<br>
+            <input type="checkbox" class="check" value="cheese">Monterey Jack Cheese<br>
+          </div>
+        </div>
+        <div class="row" id="text">
+          <div class="labels">
+            <label>Any Comments or Suggestions?</label>
+          </div>
+          <div class="inputs" id="comments">
+            <textarea rows="6" cols="50" placeholder="Enter your comment here..."></textarea>
+          </div>
+        </div>
+        <div id="button">
+          <button id="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
