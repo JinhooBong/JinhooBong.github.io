@@ -4,6 +4,11 @@ html {
     font-size: 16px;
 }
 
+#font-adjust {
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
 .resume {
     text-decoration: none;
     color: white;
